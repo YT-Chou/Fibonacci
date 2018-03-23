@@ -1,0 +1,29 @@
+{
+    "name": "taylor/data-structure",
+    "authors": [
+        {
+            "name": "Taylor",
+            "email": "amozartea@gmail.com"
+        }
+    ],
+    "autoload": {
+    "psr-4": {"Taylor\\": "src/"}
+    },
+    "autoload-dev": {
+       "psr-4": {"Taylor\\Tests\\": "tests/"}
+    },
+    "require": {
+        "ramsey/uuid": "^3.7",
+        "phpunit/phpunit": "^7.0",
+        "nesbot/carbon": "^1.25",
+        "vlucas/valitron": "^1.4",
+        "guzzlehttp/guzzle": "^6.3",
+        "aura/router": "^3.1",
+        "php-di/php-di": "^6.0",
+        "j4mie/idiorm": "^1.5",
+        "monolog/monolog": "^1.23",
+        "zendframework/zend-diactoros": "^1.7"
+    },
+    "require-dev": {
+    }
+}
