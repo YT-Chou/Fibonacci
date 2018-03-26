@@ -7,10 +7,12 @@
         }
     ],
     "autoload": {
-    "psr-4": {"Taylor\\": "src/"}
+    "psr-4": {"Taylor\\": "src/"},
+    "files":["src/Math/function.php"]
     },
     "autoload-dev": {
        "psr-4": {"Taylor\\Tests\\": "tests/"}
+
     },
     "require": {
         "ramsey/uuid": "^3.7",
