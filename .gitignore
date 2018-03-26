@@ -13,6 +13,7 @@
 *.h.c
 *.ilk
 *.lib
+*.log
 *.pc
 *.pdb
 *.sh
@@ -29,13 +30,4 @@
 /.config
 /.version
 /vendor
-/ffmpeg
-/ffplay
-/ffprobe
-/config.asm
-/config.h
-/coverage.info
-/avversion.h
-/lcov/
-/src
-/mapfile
+
