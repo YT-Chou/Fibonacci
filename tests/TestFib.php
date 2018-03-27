@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace UnitTestFib;
+namespace UnitTest;
 
 use Taylor\Math\Fibonacci;
 use PHPUnit\Framework\TestCase;
@@ -16,8 +16,6 @@ final class FibTest extends TestCase
     {
         $expected = array(0, 1, 1, 2, 3, 5, 8, 13, 21, 34);
         $resultArray = array();
-
-        // Add an item while $i < yourWantedItemQuantity
         for ($i = 0; $i < 10; $i++) {
             array_push($resultArray, Fibonacci::fib($i));
         }
