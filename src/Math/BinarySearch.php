@@ -4,7 +4,7 @@ namespace Taylor\Math;
 
 class BinarySearch
 {
-    public static function binSearch(int $key, array $srcArray):int
+    public static function search(int $key, array $srcArray):int
     {
         $length = count($srcArray);
         $left = 0; //index
