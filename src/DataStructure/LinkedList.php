@@ -25,11 +25,12 @@ class LinkedList
         return $this->firstNode->data;
     }
 
-    public function getBack():int
+    public function getEnd():int
     {
         if ($this->lastNode === null) {
-            return $this->firstNode->data;
+            echo "empty";
         }
+        return $this->lastNode->data;
     }
 
     public function pushFront(int $input)
