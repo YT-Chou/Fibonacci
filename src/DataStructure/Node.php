@@ -6,6 +6,7 @@ class Node
     public $data; // int
     public $prev; // Node
     public $next; // Node
+    
     public function __construct(int $input)
     {
         $this->data = $input;

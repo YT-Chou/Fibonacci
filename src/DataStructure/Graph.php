@@ -5,7 +5,7 @@ namespace Taylor\DataStructure;
 class Graph
 {
     public $linkMatrix;// 2D array, 0 or null: not linked 1: linked, undirected.
-    public $nodeArray;// 1D array, Weight or Value
+    public $nodeArray = [];// 1D array, Weight or Value
     private $visited; // 1D array, 0: not visited, 1: visited
     private $itineraryNode;   // travelled ordered result, present By Node Number
     private $itineraryValue; // travelled ordered result, present By Weight or Value

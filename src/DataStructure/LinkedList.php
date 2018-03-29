@@ -8,7 +8,6 @@ class LinkedList
     private $firstNode; // Node
     private $lastNode; // Node
 
-
     public function __construct()
     {
         echo "constructed sucessfully, empty\n";
